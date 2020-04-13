@@ -1,13 +1,19 @@
-# ChicagoCrimeAnalysisAndPrediction
+# Chicago Crime Analysis And Prediction
 
-Data set is taken from KaggleList.
+## Project description
 
-First all parameters were analysed, correlation between the attributes were figured out.
+Project analyses the crime patterns in Chicago using various visualizations in python and predicts arrest made or not using algorithms available in the sklearn python machine learning library.
 
-Clustering was done by k-means algorithm as the data set is huge (nearly 6M entries), and as k-means is the fastest algorithm.
-By default the missing values were taken to be zero in this.
+## Dataset Used
 
-Predicting whether an arrest would be made or not for the given
-parameters of crime type Homicide.
-The entries with missing values were dropped in this algo.
-Predicing algorithms with 72% accuracy were coded 
+Chicago crime dataset from Kaggle.
+
+## Languages and Libraries
+
+* Python3
+* sklearn
+* seaborn
+* pandas
+* numpy
+* matplotlib
+
